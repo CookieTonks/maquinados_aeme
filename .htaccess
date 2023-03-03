@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^public
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)$ public/$1 [L]
+
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Configure el paquete “ea-php81” como el lenguaje de programación predeterminado “PHP”.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php81___lsphp .php .php8 .phtml
+</IfModule>
+
+# END cPanel-generated php ini directives, do not edit
