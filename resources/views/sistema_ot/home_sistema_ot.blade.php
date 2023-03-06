@@ -308,8 +308,9 @@
                                         <option value="Anodizado">ANODIZADO</option>
                                         <option value="Pintura">PINTURA</option>
                                         <option value="Corte">CORTE</option>
-                                        <option value="GALVANIZADO">GALVANIZADO</option>
-                                                                                <option value="Lumena">Lumena</option>
+                                        <option value="Corte con agua ">CORTE CON AGUA</option>
+                                        <option value="Galvanizado">GALVANIZADO</option>
+                                        <option value="Lumena">Lumena</option>
 
                                     </select>
                                 </div>
@@ -416,7 +417,7 @@
                                         <option>MARCAJE</option>
                                     </select>
                                 </div>
-                            </div>              
+                            </div>
                             <div class="form-row">
                                 <div class="col-md-4 mb-3">
                                     <label>Dibujo</label>
